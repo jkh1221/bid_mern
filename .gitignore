@@ -1,0 +1,13 @@
+# package directories
+node_modules
+
+# Webpack directories
+.webpack
+
+# API Keys, Secrets, etc
+.env
+.env*.json
+
+# build folders
+dist/
+build/

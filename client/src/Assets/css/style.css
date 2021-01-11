@@ -1,0 +1,8 @@
+.slide-prev, .slide-next {
+  font-size: 25px !important;
+  color: #cca773 !important;
+}
+#header_search {
+  color: white;
+  cursor: pointer;
+}

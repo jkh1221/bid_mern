@@ -1,0 +1,49 @@
+{
+  "name": "react_gulp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.5.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.4.3",
+    "react-datepicker": "^2.10.0",
+    "react-dom": "^16.12.0",
+    "react-items-carousel": "^2.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:8000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
